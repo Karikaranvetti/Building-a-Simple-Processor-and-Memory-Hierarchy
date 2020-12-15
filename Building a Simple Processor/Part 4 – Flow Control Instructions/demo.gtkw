@@ -1,0 +1,76 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Sep 13 13:27:37 2020
+[*]
+[dumpfile] "/home/harishbaana/4th_semi/co224/viva/e16172_lab5_part4/cpu_wavedata.vcd"
+[dumpfile_mtime] "Tue Jun  2 16:09:47 2020"
+[dumpfile_size] 11407
+[savefile] "/home/harishbaana/4th_semi/co224/viva/e16172_lab5_part4/demo.gtkw"
+[timestart] 0
+[size] 1850 1016
+[pos] -1 -1
+*-3.929417 31 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[treeopen] test.mycpu.
+[sst_width] 233
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+test.mycpu.CLK
+test.mycpu.RESET
+@22
+test.mycpu.PC[31:0]
+test.mycpu.INSTRUCTION[31:0]
+@200
+-
+@28
+test.mycpu.OP_CODE[2:0]
+test.mycpu.READREG1[2:0]
+test.mycpu.READREG2[2:0]
+test.mycpu.WRITEREG[2:0]
+@23
+test.mycpu.IM_VAL[7:0]
+@200
+-
+@22
+test.mycpu.cpu_reg_file.IN[7:0]
+test.mycpu.cpu_reg_file.OUT1[7:0]
+test.mycpu.cpu_reg_file.OUT2[7:0]
+@28
+test.mycpu.cpu_reg_file.INADDRESS[2:0]
+test.mycpu.cpu_reg_file.OUT1ADDRESS[2:0]
+test.mycpu.cpu_reg_file.OUT2ADDRESS[2:0]
+test.mycpu.cpu_reg_file.WRITE
+@200
+-
+@22
+test.mycpu.cpu_alu.DATA1[7:0]
+test.mycpu.cpu_alu.DATA2[7:0]
+test.mycpu.cpu_alu.RESULT[7:0]
+@28
+test.mycpu.cpu_alu.SELECT[2:0]
+test.mycpu.cpu_alu.ZERO
+@200
+-
+@22
+test.mycpu.cpu_counter.in_pc[31:0]
+test.mycpu.cpu_counter.out_pc[31:0]
+@200
+-
+@28
+test.mycpu.JUMP
+@22
+test.mycpu.B_out[31:0]
+test.mycpu.Branch[31:0]
+test.mycpu.J_out[31:0]
+@200
+-
+@28
+test.mycpu.BEQ
+@22
+test.mycpu.NEXT[31:0]
+test.mycpu.B_out[31:0]
+test.mycpu.Branch[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
