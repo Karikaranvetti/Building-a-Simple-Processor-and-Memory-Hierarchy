@@ -1,0 +1,70 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sun Sep 13 18:19:33 2020
+[*]
+[dumpfile] "/home/harishbaana/4th_semi/co224/viva/e16172_lab6_part1/cpu_wavedata.vcd"
+[dumpfile_mtime] "Wed Jun  3 14:56:58 2020"
+[dumpfile_size] 38868
+[savefile] "/home/harishbaana/4th_semi/co224/viva/e16172_lab6_part1/demo.gtkw"
+[timestart] 0
+[size] 1850 1016
+[pos] -89 -89
+*-6.197523 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test.
+[treeopen] test.mycpu.
+[sst_width] 233
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+test.mycpu.RESET
+test.mycpu.CLK
+@22
+test.mycpu.PC[31:0]
+test.mycpu.INSTRUCTION[31:0]
+test.mycpu.OP_CODE[4:0]
+@28
+test.mycpu.busywait
+@200
+-
+@28
+test.mycpu.cpu_reg_file.INADDRESS[2:0]
+@22
+test.mycpu.cpu_reg_file.IN[7:0]
+@28
+test.mycpu.cpu_reg_file.OUT1ADDRESS[2:0]
+@22
+test.mycpu.cpu_reg_file.OUT1[7:0]
+@28
+test.mycpu.cpu_reg_file.OUT2ADDRESS[2:0]
+@22
+test.mycpu.cpu_reg_file.OUT2[7:0]
+@28
+test.mycpu.cpu_reg_file.WRITE
+@200
+-
+@22
+test.my_data_memory.address[7:0]
+@28
+test.my_data_memory.busywait
+test.my_data_memory.read
+@22
+test.my_data_memory.readdata[7:0]
+@28
+test.my_data_memory.write
+@22
+test.my_data_memory.writedata[7:0]
+@200
+-
+@23
+test.mycpu.cpu_alu.DATA1[7:0]
+test.mycpu.cpu_alu.DATA2[7:0]
+@29
+test.mycpu.cpu_alu.ONE
+@23
+test.mycpu.cpu_alu.RESULT[7:0]
+@29
+test.mycpu.cpu_alu.SELECT[2:0]
+test.mycpu.cpu_alu.ZERO
+[pattern_trace] 1
+[pattern_trace] 0
